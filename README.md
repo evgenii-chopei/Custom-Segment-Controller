@@ -1,5 +1,6 @@
-# custom.segment
-Custom segment controller iOS
+# Custom Segment Controller iOS 
+WITH VERY flexible adjustment
+
 You can customise it with methods:
 
 1. Add files to your project. 
@@ -28,11 +29,12 @@ Example : ```
 	-	[seg setColorForSelectionView:[UIColor blackColor]];
 	-	[seg setAnimationDuration:0.5];
 	-	[self.view addSubview:seg];
-	 
-		 [seg addTarget:self action:@selector(segmentControllerTappe:) forControlEvents:UIControlEventValueChanged];
+	 	[seg addTarget:self action:@selector(segmentControllerTappe:) forControlEvents:UIControlEventValueChanged];
+
 - (void)segmentControllerTappe:(ECSegmentController*)segment
-- {
-//code here
+{
+if (segment.selectedIndex==2){
+//do something
 }
 
 ```
