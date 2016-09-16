@@ -30,14 +30,14 @@ Example : ```
 	-	[seg setAnimationDuration:0.5];
 	-	[self.view addSubview:seg];
 	 	[seg addTarget:self action:@selector(segmentControllerTappe:) forControlEvents:UIControlEventValueChanged];
-
+```
 - (void)segmentControllerTappe:(ECSegmentController*)segment
 {
 if (segment.selectedIndex==2){
 //do something
 }
 
-```
+
 
 
 	
