@@ -1,12 +1,13 @@
 # Custom Segment Controller iOS 
 WITH VERY flexible adjustment
 
-You can customise it with methods:
 
 1. Add files to your project. 
 2. Import Header   ( #import "ECSegmentController.h")
 
 ![alt tag](https://media.giphy.com/media/26ufcN8cxBHQ2BkJi/giphy.gif)
+
+You can customise it with methods:
 
 - (void)setFont:(UIFont*)font;
 - (void) setColorForActiveText:(UIColor*)color;
@@ -18,7 +19,7 @@ You can customise it with methods:
 - (void) setSelectionViewType:(SelectionFrameType)type;
 - (void) setSelectionViewFrame:(CGRect)frame;
 
-Example : ```
+Example : 
 
 	-	ECSegmentController * seg = [[ECSegmentController alloc]initWithFrame:CGRectMake(0, 0, -self.view.frame.size.width, 100)];
 	-	[seg setItems:@[@"Item 1",@"Item 2",@"Item 3"]];
