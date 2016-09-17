@@ -127,7 +127,7 @@
 	
 	
 }
--(void)start{
+-(void)willMoveToSuperview{
 [self setUpView];
 }
 
