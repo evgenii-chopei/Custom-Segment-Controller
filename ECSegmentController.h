@@ -1,9 +1,9 @@
 //
-//  Segment.h
+//  ECSegmentController.h
 //  CustomSegment
 //
-//  Created by iMac on 16/09/2016.
-//  Copyright © 2016 iMac. All rights reserved.
+//  Created by EC on 16/09/2016.
+//  Copyright © 2016 EC. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
@@ -18,9 +18,6 @@ typedef enum : NSUInteger {
 
 @property	(nonatomic)			NSUInteger selectedIndex;
 
-
-
-
 - (void)setFont:(UIFont*)font;
 - (void) setColorForActiveText:(UIColor*)color;
 - (void) setColorForNonActiveText:(UIColor*)color;
@@ -31,9 +28,5 @@ typedef enum : NSUInteger {
 - (void) setSelectionViewType:(SelectionFrameType)type;
 - (void) setSelectionViewFrame:(CGRect)frame;
 
-
-
-
--(void)start;
 
 @end
