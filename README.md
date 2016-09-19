@@ -37,10 +37,4 @@ Example :
 if (segment.selectedIndex==2){
 //do something
 }
-
-
-
-
-	
-	
-	
+```
