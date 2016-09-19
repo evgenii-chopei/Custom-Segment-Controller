@@ -5,6 +5,7 @@ WITH VERY flexible adjustment
 1. Add files to your project. 
 2. Import Header   ( #import "ECSegmentController.h")
 ![alt tag](https://media.giphy.com/media/l0MYS9YDMhI8E12Ba/giphy.gif)
+![alt tag](https://media.giphy.com/media/26ufcN8cxBHQ2BkJi/giphy.gif)
 
 You can customise it with methods:
 
