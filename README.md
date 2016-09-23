@@ -38,3 +38,8 @@ if (segment.selectedIndex==2){
 //do something
 }
 ```
+
+
+LICENSE
+Everybody can use it! Except Pavlo Bojko!
+
