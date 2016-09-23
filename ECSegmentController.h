@@ -27,6 +27,5 @@ typedef enum : NSUInteger {
 - (void) setColorForSelectionView:(UIColor*)color;
 - (void) setSelectionViewType:(SelectionFrameType)type;
 - (void) setSelectionViewFrame:(CGRect)frame;
-
-
+- (void) setChangesViews:(NSArray*)array;
 @end
