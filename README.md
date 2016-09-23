@@ -42,5 +42,5 @@ if (segment.selectedIndex==2){
 
 __LICENSE__
 ###### Under __MIT LICENSE__ 
-######  Everybody can use it! Except Pavlo Bojko!
+######  Everybody can use it! Except Pavlo Boiko!
 
