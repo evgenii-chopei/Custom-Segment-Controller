@@ -40,6 +40,7 @@ if (segment.selectedIndex==2){
 ```
 
 
-LICENSE
+__LICENSE__
+###### Under __MIT LICENSE__ 
 ######  Everybody can use it! Except Pavlo Bojko!
 
